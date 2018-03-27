@@ -1,0 +1,67 @@
+.maincontent {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.sidebar1 {
+	border: blue solid 1px;
+	background-color: yellow;
+	padding: 20px;
+	order: 1;
+	box-sizing: border-box;
+	/*width: 30%;  använd flex-basis ist för width. Mer Flexbox anpassat*/
+	flex-basis: 30%;
+	
+
+}
+
+.mainbox {
+	border: black solid 1px;
+	background-color: grey;
+	padding: 20px;
+	order: 2;
+	box-sizing: border-box;
+	/*width: 30%;  använd flex-basis ist för width. Mer Flexbox anpassat*/
+	flex-basis: 30%;
+	
+}
+
+.sidebar2 {
+	border: red solid 1px;
+	background-color: green;
+	padding: 20px;
+	order: 3;
+	box-sizing: border-box;
+	/*width: 30%;  använd flex-basis ist för width. Mer Flexbox anpassat*/
+	flex-basis: 30%;
+	
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+
+}
+
+.imgcontainer {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	width: 350px;
+	height: 200px;
+	margin: 10px;
+}
+
+h2 {
+	color: red;
+
+}
