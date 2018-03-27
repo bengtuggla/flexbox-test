@@ -5,6 +5,7 @@ body {
 .maincontent {
 	display: flex;
 	justify-content: space-between;
+	margin: 40px;
 	
 }
 
@@ -28,6 +29,7 @@ body {
 	box-sizing: border-box;
 	/*width: 30%;  använd flex-basis ist för width. Mer Flexbox anpassat*/
 	flex-basis: 30%;
+	
 	
 }
 
@@ -75,6 +77,7 @@ img:hover {
 }
 
 h2 {
-	color: red;
+	color: black;
+	font-family: fantasy;
 
 }
